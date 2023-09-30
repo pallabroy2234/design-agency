@@ -83,8 +83,8 @@ const NavBar = () => {
             </div>
             
             {/* small screen size => less than 1023px    */}
-            <div className={`block lg:hidden  ${isOpen ? "bg-neutral-800/75 fixed  inset-0 z-50 transition-all duration-100 opacity-1" : "fixed bg-neutral-800/75 inset-0 opacity-0 z-49"}`}>
-                <div className={`bg-white shadow-lg duration-300 z-50 transition-all fixed h-full  -right-0.5 bottom-0  top-0 w-[350px] p-8   ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+            <div className={`block lg:hidden  ${isOpen ? "bg-neutral-800/75 fixed  inset-0 z-50 transition-all duration-100 opacity-1" : "fixed bg-neutral-800/75 inset-0 duration-300 opacity-0 z-49"}`}>
+                <div className={`bg-white shadow-lg duration-300 z-50 transition-all fixed h-full  -right-0.5 bottom-0  top-0 w-[350px] p-8   ${isOpen ? "translate-x-0" : "translate-x-full duration-300 transition-all z-50 "}`}>
                     <div className="grid content-between min-h-[90vh]">
                         <div>
                             <div className="w-[40px] h-[40px] border-[2px] border-secondary  flex items-center justify-center shadow-2xl shadow-secondary rounded-full" onClick={()=> setIsOpen(!isOpen)}>
@@ -95,7 +95,7 @@ const NavBar = () => {
                                     navLinks.map((link)=> {
                                         return (
                                             <li key={link.id} className="relative">
-                                                <Link href={`${link.path}`} className={` ${pathName === link.path ? "text-primary after:content-[''] after:absolute after:w-[50px] duration-300 transition-all   after:right-[75px] after:top-[10px]  after:h-[3px]  after:bg-primary": "text-black"}`}>{link.title}</Link>
+                                                <Link href={`${link.path}`} onClick={()=> setIsOpen(!isOpen)} className={` ${pathName === link.path ? "text-primary after:content-[''] after:absolute after:w-[50px] duration-300 transition-all   after:right-[75px] after:top-[10px]  after:h-[3px]  after:bg-primary": "text-black"}`}>{link.title}</Link>
                                             </li>
                                         )
                                     })
