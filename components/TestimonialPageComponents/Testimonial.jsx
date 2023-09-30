@@ -6,11 +6,11 @@ const Testimonial = ({testimonialList}) => {
         
         {/*  Heading  */}
             <div>
-                <h3 className="font-exo-pro md:text-xl text-lg text-primary font-semibold uppercase">Testimonial List</h3>
-                <h2 className="font-exo-pro md:text-3xl text-2xl font-bold my-3 capitalize">Better Agency/SEO Solution At Your Fingertips</h2>
+                <h3 className="font-exo-pro text-xl  md:text-[27px] tracking-wider font-semibold text-primary">Testimonial List</h3>
+                <h2 className="font-exo-pro text-2xl tracking-wider md:text-[38px] font-bold capitalize  my-6">Better Agency/SEO Solution At Your Fingertips</h2>
             </div>
             
-            <div className="mt-20">
+            <div className="my-[100px]">
                  <div className="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 lg:gap-16 gap-10">
                   
                        {
@@ -22,8 +22,8 @@ const Testimonial = ({testimonialList}) => {
                                         </div>
                                        <div className="text-center tracking-wider  mt-8">
                                            <p className="text-base">{item.msg}</p>
-                                           <h2 className="font-exo-pro text-4xl font-bold my-4">{item.name}</h2>
-                                           <h3 className="font-exo-pro text-2xl ">{item.designation}</h3>
+                                           <h2 className="font-exo-pro text-3xl font-bold my-4">{item.name}</h2>
+                                           <h3 className="font-exo-pro text-xl ">{item.designation}</h3>
                                        </div>
                                    </div>
                                )

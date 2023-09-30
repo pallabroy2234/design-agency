@@ -75,7 +75,7 @@ const WorkList = ({workList ,statList}) => {
                 {/* work list heading   */}
                 <div>
                     <h4 className="font-medium uppercase text-primary text-[20px]">Work List</h4>
-                    <h2 className="font-bold  font-exo-pro md:text-4xl  tracking-wider text-[26px]  mt-3 tracking-[1px]">We provide the Perfect Solution <br/> to your business growth
+                    <h2 className="font-bold  font-exo-pro md:text-4xl  tracking-wider text-[26px] mt-3">We provide the Perfect Solution <br/> to your business growth
                     </h2>
                 </div>
                 
@@ -91,7 +91,7 @@ const WorkList = ({workList ,statList}) => {
                                 </div>
                                 {/* card body */}
                                 <div className="mt-8">
-                                    <h3 className="font-semibold text-[20px] mb-5">{item.title}</h3>
+                                    <h3 className="font-bold font-exo-pro tracking-wider  text-xl mb-5">{item.title}</h3>
                                     <p className="">{item.des}</p>
                                 </div>
                                 <div className="mt-7">

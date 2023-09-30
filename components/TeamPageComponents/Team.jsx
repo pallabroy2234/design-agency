@@ -56,8 +56,8 @@ const Team = ({teamList}) => {
   return (
     <div className='customContainer my-[100px]'>
       <div>
-        <h3 className='font-exo-pro text-[27px] font-semibold text-primary '>Our Team Member</h3>
-        <h2 className='font-exo-pro text-[38px] font-bold capitalize mt-3'>Check our awesome team members</h2>
+        <h3 className='font-exo-pro text-xl  md:text-[27px] tracking-wider font-semibold text-primary'>Our Team Member</h3>
+        <h2 className='font-exo-pro text-2xl tracking-wider md:text-[38px] font-bold capitalize  my-6'>Check our awesome team members</h2>
       </div>
 
       <div className='grid grid-cols-1 gap-10 bg-white md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2 my-[100px]'>
@@ -96,4 +96,3 @@ const Team = ({teamList}) => {
 export default Team;
 
 
-//bottom-1/3

@@ -14,7 +14,7 @@ const FeaturedProject = ({featuredProject}) => {
             {/*   Featured Project Heading  */}
                 <div>
                     <h2 className="uppercase font-semibold text-[20px] text-primary">Featured Project</h2>
-                    <h1 className="text-black font-bold text-[30px] mt-4 leading-normal">We provide the Perfect Solution <br/>  to your business growth</h1>
+                    <h1 className="text-black font-exo-pro  tracking-wider font-bold text-2xl md:text-4xl mt-4 leading-normal">We provide the Perfect Solution <br/>  to your business growth</h1>
                 </div>
                 
             {/* Feature Project body   */}

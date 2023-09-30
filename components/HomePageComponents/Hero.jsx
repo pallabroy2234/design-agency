@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Button from "@/components/Button";
 
 
@@ -11,7 +11,7 @@ import Button from "@/components/Button";
 
 const Hero = ({heroItem, brandList}) => {
     return (
-        <div className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-green-200 via-green-100 to-gray-100  pt-[5em] pb-[2em]">
+        <div className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-green-200 via-green-100 to-gray-100 pt-[8em] pb-[2em]">
             {/* hero section  */}
             <div className="customContainer">
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-6  relative">

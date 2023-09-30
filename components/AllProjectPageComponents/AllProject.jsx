@@ -6,8 +6,8 @@ const AllProject = ({allProject}) => {
         <div className="customContainer my-[100px]">
         {/*  Heading   */}
             <div>
-                <h3 className="font-exo-pro text-primary md:text-xl text-lg uppercase font-semibold">All Project</h3>
-                <h2 className="md:text-3xl  text-xl  font-exo-pro font-bold capitalize my-4">Better Agency/SEO Solution At Your Fingertips</h2>
+                <h3 className="font-exo-pro text-xl  md:text-[27px] tracking-wider font-semibold text-primary">All Project</h3>
+                <h2 className="font-exo-pro text-2xl tracking-wider md:text-[38px] font-bold capitalize  my-6">Better Agency/SEO Solution At Your Fingertips</h2>
             </div>
             
         {/*  body  */}

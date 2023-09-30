@@ -83,7 +83,7 @@ const NavBar = () => {
             </div>
             
             {/* small screen size => less than 1023px    */}
-            <div className={`block lg:hidden  ${isOpen ? "bg-neutral-800/75 fixed  inset-0 z-50 transition-all duration-600 opacity-1" : "fixed bg-neutral-800/75 inset-80 opacity-0 transition-all duration-300 z-50"}`}>
+            <div className={`block lg:hidden  ${isOpen ? "bg-neutral-800/75 fixed  inset-0 z-50 transition-all duration-100 opacity-1" : "fixed bg-neutral-800/75 inset-0 opacity-0 z-49"}`}>
                 <div className={`bg-white shadow-lg duration-300 z-50 transition-all fixed h-full  -right-0.5 bottom-0  top-0 w-[350px] p-8   ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
                     <div className="grid content-between min-h-[90vh]">
                         <div>
