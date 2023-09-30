@@ -81,8 +81,8 @@ const Team = ({teamList}) => {
                                </ul>
                           </div>
                          <div className="px-6 py-5">
-                             <h2>{item.name}</h2>
-                             <p>{item.bio}</p>
+                             <h2 className="text-center font-exo-pro tracking-wider font-bold text-2xl my-4">{item.name}</h2>
+                             <p className="text-center font-exo-pro tracking-wider">{item.bio}</p>
                          </div>
                       </div>
                   )
