@@ -6,15 +6,16 @@ import {usePathname} from "next/navigation";
 // bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-green-200 via-green-100 to-gray-100
 
 // bg-gradient-to-r from-yellow-200 via-green-200 to-green-300
-const SubHero = ({breadCrumbsStart,breadCrumbsEnd}) => {
+const SubHero = ({breadCrumbsStart,breadCrumbsEnd ,label}) => {
     const pathName = usePathname()
     const newPathname = pathName.split("/")[1]
+  
     
     return (
         <div className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-green-200 via-green-100 to-gray-100 py-[150px]">
             <div className="customContainer">
                 {/*  heading   */}
-                <h2 className="font-exo-pro text-[40px] font-bold">Our Services</h2>
+                <h2 className="font-exo-pro text-[40px] font-bold">{label}</h2>
                 {/* Breadcrumbs */}
                 
                 <div className="text-md  font-exo-pro  breadcrumbs mt-4">

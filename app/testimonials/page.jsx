@@ -21,7 +21,7 @@ const TestimonialsPage =async () => {
     const testimonialList =await getTestimonialList();
     return (
         <>
-            <SubHero  breadCrumbsStart="Home" breadCrumbsEnd="Testimonials"/>
+            <SubHero  breadCrumbsStart="Home" breadCrumbsEnd="Testimonials" label={"Testimonials"}/>
             <Testimonial testimonialList={testimonialList}/>
             <Subscribe/>
             

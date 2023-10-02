@@ -24,7 +24,7 @@ const ServicePage =async () => {
     
     return (
         <>
-            <SubHero  breadCrumbsStart="Home" breadCrumbsEnd="Services"/>
+            <SubHero  breadCrumbsStart="Home" breadCrumbsEnd="Services" label={"Our Services"} />
             <Services  services={services} />
             <Subscribe/>
         </>

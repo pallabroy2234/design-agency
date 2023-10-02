@@ -23,7 +23,7 @@ const TeamPage =async () => {
     
     return (
         <>
-            <SubHero  breadCrumbsStart="Home" breadCrumbsEnd="Team"/>
+            <SubHero  breadCrumbsStart="Home" breadCrumbsEnd="Team" label={"Our Team"}/>
             <Team teamList={teamList} />
             <Subscribe/>
         </>

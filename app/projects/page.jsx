@@ -22,7 +22,7 @@ const ProjectPage =async () => {
     
     return (
         <>
-            <SubHero  breadCrumbsStart="Home" breadCrumbsEnd="Projects"/>
+            <SubHero  breadCrumbsStart="Home" breadCrumbsEnd="Projects" label={"Our Project"}/>
             <AllProject allProject={allProject}/>
             <Subscribe/>
         </>
